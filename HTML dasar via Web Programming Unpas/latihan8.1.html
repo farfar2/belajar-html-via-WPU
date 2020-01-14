@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>latihan perpaduan form dan tabel</title>
+</head>
+<body>
+    <table border="0" cellpadding="5" cellspacing="0" align="center">
+        <tr>
+            <td align="right"><label for="username">username :</label></td>
+            <td><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="password">Password :</label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <label for="pria">pria</label><input type="radio" id="pria" name="jeniskelamin">
+                <label for="wanita"> wanita</label><input type="radio" id="wanita" name="jeniskelamin">
+            </td>
+            
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <label for="menyanyi">menyanyi</label><input type="checkbox" id="menyanyi">
+                <label for="ngoding">ngoding</label><input type="checkbox" id="ngoding">
+                <label for="ngelamun">ngelamun</label><input type="checkbox" id="ngelamun">
+                <label for="tidur">tidur</label><input type="checkbox" id="tidur">
+            </td>
+            
+        </tr>
+        <tr>
+            <td align="right">tempat tinggal :</td>
+            <td>
+            <select>
+                <option value="">Pandeglang</option>
+                <option value="">Bandung</option>
+                <option value="">jakarta</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">tentang anda :</td>
+            <td>
+                <textarea name="tentang anda" id="" cols="15" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <button type="submit">kirim!</button>
+            </td>
+            
+        </tr>
+    </table>
+</body>
+</html>
